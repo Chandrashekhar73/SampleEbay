@@ -10,6 +10,7 @@ public class ebayMaster extends Browser {
 	  System.out.println("Hello");
 	  driver.findElement(By.id("gh-ac")).sendKeys("Water bottles");
 	  driver.findElement(By.id("gh-btn")).click();
+	  System.out.println("Search completed successfully!");
   }
   
   @BeforeTest(enabled = true)
