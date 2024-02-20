@@ -33,6 +33,8 @@ public	String mainWindow;
 	  driver.findElement(By
 					.xpath("//img[@alt='16 Oz Outdoor Sports Water Bottles Stainless Steel with Straw Vacuum Insulated']"))
 					.click();
+	  
+	  System.out.println("Added new method by Lead");
 
 	  }
 
